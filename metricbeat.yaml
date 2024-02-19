@@ -1,1 +1,12 @@
 #Test test - Code following
+
+# - New Changes that I want to implement
+
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+data:
+  myvalue: "Hello World"
+  drink: {{ .Values.favoriteDrink }}
