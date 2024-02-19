@@ -10,3 +10,5 @@ metadata:
 data:
   myvalue: "Hello World"
   drink: {{ .Values.favoriteDrink }}
+
+  #new commend
